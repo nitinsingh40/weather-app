@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+   font-family:"Poppins", sans-serif;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient( 180.7deg,  rgba(0,213,255,1) 2.5%, rgba(79,255,255,1) 97.7% );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%); 
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;  
+    /* border: 2px solid azure; */
+}
+
+.search-form{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.search-city{
+    width: 80%;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(207, 203, 203, 0.958);
+    border: 3px solid rgb(38, 151, 195);
+}
+
+.search-btn{
+    width: 50px;
+    padding-top: 5px;
+    border-radius: 10px;
+    border: 3px solid rgb(38, 151, 195);
+    background-color:rgb(38, 151, 195);
+    color: azure;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.city{
+    margin: 10px;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.date{
+    text-align: center;
+    width: 110px;
+    border: 2px solid black;
+    padding: 4px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    background-color:#ADD8E6;
+    /* border: 3px solid rgb(88, 179, 215); */
+}
+
+.weatherDescription{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.weatherCondition{
+    padding-top: 18px;
+    display: flex;
+    gap: 9px;
+}
+
+.weatherTitle{
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+.weatherTemp{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 5.5rem;
+    font-weight: 600;
+}
+
+.weatherParameter{
+    margin: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.wind-info{
+    width: 110px;
+    height: 125px;
+    border-radius: 10px;
+    background-color: #A9C9FF;
+    background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wind-info .material-icons{
+    font-size: 2.3rem;
+}
+
+.wind-level{
+    margin-top: 11px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.wind-label{
+    text-align: center;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.humidity-info{
+    width: 110px;
+    height: 125px;
+    border-radius: 10px;
+    background-color: #A9C9FF;
+    background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.humidity-info .material-icons{
+    font-size: 2.3rem;
+}
+
+.humidity-level{
+    margin-top: 11px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.humidity-label{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.visibility-info{
+    width: 110px;
+    height: 125px;
+    border-radius: 10px;
+    background-color: #A9C9FF;
+    background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+    background-color: rgba(196, 204, 204, 0.804);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.visibility-info .material-icons{
+    font-size: 2.3rem;
+}
+
+.visibility-level{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.visibility-label{
+    font-size: 1rem;
+    font-weight: 500;
+}
